@@ -2,7 +2,10 @@ img.displayed{
   margin-left: 520px;
 }
 
-
+button{
+  
+  border-bottom-color:black;
+}
 
 h4{
   font-size: 17px;

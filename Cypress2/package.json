@@ -1,0 +1,17 @@
+{
+  "name": "cypress2",
+  "version": "1.0.0",
+  "description": "Estudo do Cypress API",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open":"cypress open",
+    "test":"cypress run"
+  },
+  "keywords": [
+    "Typeform",
+    "Cypress",
+    "API-Testing"
+  ],
+  "author": "John Emerson <johnemerson67@gmail.com>",
+  "license": "MIT"
+}

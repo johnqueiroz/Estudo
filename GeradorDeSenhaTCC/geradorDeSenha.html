@@ -1,0 +1,33 @@
+<script type="text/javascript">
+              function validar(){
+                var inputNome = formUser.inputNome.value;
+                var inputEmail = formUser.inputEmail.value;
+                var inputEmailConf = formUser.inputEmailConf.value;
+                var inputTelefone = formUser.inputTelefone.value;
+
+
+                  if(inputNome ==""){
+                    alert('Preencha o campo Nome.');
+                    formUser.inputNome.focus();
+                    return false;
+                  }
+                  if(inputEmail ==""){
+                    alert('Preencha o campo Email.');
+                    formUser.inputEmail.focus();
+                    return false;
+                  }
+                  if(inputEmailConf != inputEmail){
+                    
+                    alert('Preencha com o E-mail igual.');
+                    return false;
+                  }
+                  if(inputTelefone ==""){
+                    alert('Preencha o campo Telefone.');
+                    formUser.inputTelefone.focus();
+                    return false;
+
+               }
+              }
+
+
+          </script>
